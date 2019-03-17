@@ -1,0 +1,14 @@
+/Users/mymac/Documents/AccountPlus/API/bin/Debug/netcoreapp2.2/API.deps.json
+/Users/mymac/Documents/AccountPlus/API/bin/Debug/netcoreapp2.2/API.runtimeconfig.json
+/Users/mymac/Documents/AccountPlus/API/bin/Debug/netcoreapp2.2/API.runtimeconfig.dev.json
+/Users/mymac/Documents/AccountPlus/API/bin/Debug/netcoreapp2.2/API.dll
+/Users/mymac/Documents/AccountPlus/API/bin/Debug/netcoreapp2.2/API.pdb
+/Users/mymac/Documents/AccountPlus/API/obj/Debug/netcoreapp2.2/API.csprojAssemblyReference.cache
+/Users/mymac/Documents/AccountPlus/API/obj/Debug/netcoreapp2.2/API.csproj.CoreCompileInputs.cache
+/Users/mymac/Documents/AccountPlus/API/obj/Debug/netcoreapp2.2/API.RazorAssemblyInfo.cache
+/Users/mymac/Documents/AccountPlus/API/obj/Debug/netcoreapp2.2/API.RazorAssemblyInfo.cs
+/Users/mymac/Documents/AccountPlus/API/obj/Debug/netcoreapp2.2/API.AssemblyInfoInputs.cache
+/Users/mymac/Documents/AccountPlus/API/obj/Debug/netcoreapp2.2/API.AssemblyInfo.cs
+/Users/mymac/Documents/AccountPlus/API/obj/Debug/netcoreapp2.2/API.RazorTargetAssemblyInfo.cache
+/Users/mymac/Documents/AccountPlus/API/obj/Debug/netcoreapp2.2/API.dll
+/Users/mymac/Documents/AccountPlus/API/obj/Debug/netcoreapp2.2/API.pdb

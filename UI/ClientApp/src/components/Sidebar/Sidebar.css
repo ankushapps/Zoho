@@ -1,0 +1,17 @@
+.sidebar{
+    background-color: #eee;
+    width: 200px;
+    height: 100%;
+    position: fixed;
+    letter-spacing: 0.3em;
+    overflow: auto;
+    border-right: 1px solid #e4e4e4;
+    bottom: 0;
+    z-index: 1;
+    top: 58px;
+    left: 0;
+}
+
+.noscroll-x{
+    overflow-x: hidden;
+}

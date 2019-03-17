@@ -1,0 +1,52 @@
+.content-column{
+    left: 200px;
+    right: 0;
+}
+
+.column{
+    top: 60px;
+    bottom: 0;
+    position: absolute;
+    /* overflow: scroll;
+    margin-left: 15px; */
+}
+
+.column .fill{
+    left: 0;
+    right: 0;
+    position: absolute;
+}
+
+.list-header{
+    height: 50px;
+    /* border-bottom: 1px solid #e4e4e4;  */
+}
+
+.list-header .list-filter{
+    padding: 10px 10px 10px;
+}
+/* 
+.list-body{
+    top: 60px;
+} */
+
+.column .body {
+    top: 50px;
+    bottom: 0;
+}
+
+.noscroll-x{
+    overflow: hidden;
+}
+
+.column .scroll-y{
+    overflow-y:scroll;
+}
+
+.scrollbox {
+    background: linear-gradient(white 30%,rgba(255,255,255,0)),0 100%,radial-gradient(farthest-corner at 50% 0,rgba(0,0,0,.1),rgba(0,0,0,0)),0 100%;
+    background-repeat: no-repeat;
+    background-color: rgba(255,255,255,0);
+    background-size: 100% 40px,100% 40px,100% 4px,100% 4px;
+    background-attachment: local,local,scroll,scroll;
+}
