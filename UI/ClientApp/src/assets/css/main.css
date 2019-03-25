@@ -1,0 +1,222 @@
+.site-header{
+    background-color: #FFF;
+    box-shadow: 0px 2px 4px rgba(0,0,0,0.1);
+    font-family: "Google Sans", "Roboto", sans-serif;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.sidebar{
+    background-color: #eee;
+    width: 200px;
+    height: 100%;
+    position: fixed;
+    letter-spacing: 0.3em;
+    overflow: auto;
+    border-right: 1px solid #e4e4e4;
+    bottom: 0;
+    z-index: 1;
+    top: 55px;
+    left: 0;
+}
+
+.noscroll-x{
+    overflow-x: hidden;
+}
+
+
+
+.column .scroll-y,.scroll-y{
+    overflow-y:scroll;
+}
+
+.tab-column {
+    background: #005689;
+    width: 200px;
+    letter-spacing: .3px;
+    overflow: auto;
+    border-right: 1px solid #e4e4e4;
+}
+
+.nav {
+    margin-bottom: 0;
+    padding-left: 0;
+    list-style: none;
+}
+
+.nav-pills{
+
+}
+
+.nav-bottom-spacing{
+    padding-bottom: 80px;
+}
+
+.nav>li, .nav>li>a {
+    display: block;
+    position: relative;
+}
+
+.nav-pills>li {
+    float: left;
+}
+
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+.main-tab-column, .main-tab-column>.collapse-expand, .main-tab-column>div>.timer-widget {
+    transition: width .3s ease-in-out;
+}
+
+.tab-column-collapsed {
+    width: 40px;
+    overflow: hidden;
+}
+
+.tab-column .nav-pills>li>a {
+    color: #fff;
+    border-radius: 0;
+    padding: 6px 25px 6px 15px;
+}
+
+.inbox-count, .tab-column .nav-pills>li.active .menu-action, .tab-column .nav-pills>li.active>a, .tab-column .nav-pills>li.active>a:focus, .tab-column .nav-pills>li.active>a:hover {
+    color: #C8E29D!important;
+    background-color: #00446D;
+}
+
+.tab-column .nav-pills>li.active>a, .tab-column .nav-pills>li.active>a>.add-new.active {
+    background-color: #00446D;
+    border-left-color: #C8E29D;
+    color: #C8E29D;
+}
+
+.main-tab-column>.expand-sidebar, .main-tab-column~.content-column, .main-tab-column~.list-column {
+    transition: left .3s ease-in-out;
+}
+
+/* main content column */
+.column{
+    top: 55px;
+    bottom: 0;
+    position: absolute;
+}
+
+.content-column {
+    left: 200px;
+    right: 0;
+    background-color: #fff;
+}
+
+.banner, .column, .column .fill, .flyout, .product {
+    position: absolute;
+}
+
+.column .fill{
+    left: 0;
+    right: 0;
+    position: absolute;
+}
+
+.column .body {
+    top: 50px;
+    bottom: 0;
+}
+
+.column .scroll-y{
+    overflow-y:scroll;
+}
+
+.tab-column-collapsed+.content-column {
+    left: 40px;
+}
+
+
+.scrollbox {
+    background: linear-gradient(white 30%,rgba(255,255,255,0)),0 100%,radial-gradient(farthest-corner at 50% 0,rgba(0,0,0,.1),rgba(0,0,0,0)),0 100%;
+    background-repeat: no-repeat;
+    background-color: rgba(255,255,255,0);
+    background-size: 100% 40px,100% 40px,100% 4px,100% 4px;
+    background-attachment: local,local,scroll,scroll;
+}
+
+
+.collapse-expand{
+    background-color: #004D7B;
+    border-top-color: #004D7B;
+}
+
+.collapse-expand {
+    position: fixed;
+    height: 35px;
+    bottom: 0;
+    width: 200px;
+    border-right: 1px solid #e4e4e4;
+    border-top: 1px solid #bbbabb;
+    background-color: #d9d9d9;
+    cursor: pointer;
+}
+
+.expand-sidebar, .expand-sidebar:hover {
+    color: #fff;
+}
+
+.shrink-sidebar {
+    left: 14px;
+}
+
+.expand-sidebar {
+    position: fixed;
+    bottom: 4px;
+    left: 93px;
+    cursor: pointer;
+    color: #333;
+}
+
+.tab-column-collapsed+.shrink-sidebar {
+    left: 40px;
+}
+
+/* maint content component styles */
+
+.list-header{
+    height: 50px;
+    box-shadow: 0px 2px 4px rgba(0,0,0,0.1);
+    border-bottom: 1px solid #e4e4e4; 
+}
+
+.list-header .list-filter{
+    padding: 10px 10px 10px;
+}
+
+
+/* ul menu */
+.tab-column .nav-pills>li {
+    margin: 0;
+}
+
+.nav-justified>li, .nav-stacked>li {
+    float: none;
+}
+
+.nav-pills>li {
+    float: left;
+}
+
+.nav>li, .nav>li>a {
+    display: block;
+    position: relative;
+}
+
+.inbox-count, .tab-column .nav-pills>li.active .menu-action, .tab-column .nav-pills>li.active>a, .tab-column .nav-pills>li.active>a:focus, .tab-column .nav-pills>li.active>a:hover {
+    color: #C8E29D!important;
+    background-color: #00446D;
+}
+
+.tab-column .nav-pills>li>a {
+    color: #fff;
+    border-radius: 0;
+    padding: 6px 25px 6px 15px;
+} 

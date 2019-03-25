@@ -23,7 +23,7 @@ export class NavMenu extends Component {
 
   render () {
     return (
-      <header>
+      <header className="site-header">
         <Navbar className="navbar-expand-sm navbar-toggleable-sm ng-white border-bottom box-shadow mb-3" light>
           <Container>
             <NavbarBrand tag={Link} to="/">Account Plus</NavbarBrand>
